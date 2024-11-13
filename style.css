@@ -1,0 +1,490 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.bg{
+    height: 100vh;
+    width: 100%;
+}
+/* navbar */
+.bg .nav{
+    width: 100%;
+    height: 75px;
+    background-color: #0C3C60;
+    padding-inline: 85px;
+    display: flex;
+}
+/* left */
+.bg .nav .navleft h2{
+    color: white;
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 22px;
+    cursor: pointer;
+}
+/* right */
+.bg .nav .navright{
+    height: inherit;
+    width: 41%;
+    margin-left: 32%;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+.bg .nav .navright a{
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    transition: 0.3s;
+    font-weight: 300;
+}
+.bg .nav .navright a:hover{
+    color: rgb(57, 143, 177);
+    transition: 0.3s;
+}
+.bg .nav .user{
+    height: 28px;
+    width: 28px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+}
+.bg .nav .user i{
+    font-size: 21px;
+    color: #0C3C60;
+}
+.bg .nav p{
+    margin-top: 22px;
+    color: rgb(233, 233, 233);
+    padding-left: 15px;
+    font-weight: 300;
+}
+.bg .nav p:hover{
+    color: rgb(161, 173, 184);
+    cursor: pointer;
+}
+/* herosection */
+.bg .heroimg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Assets/heroimg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.bg .heroimg .herobox{
+    height: 242px;
+    width: 55%;
+    background-color: white;
+}
+.bg .heroimg .herobox h2{
+    font-weight: 400;
+    padding-top: 35px;
+    text-align: center;
+}
+.bg .heroimg .herobox h1{
+    text-align: center;
+    font-size: 65px;
+    padding-top: 25px;
+    font-weight: 300;
+}
+.bg .heroimg .herobox button{
+    height: 50px;
+    width: 210px;
+    margin-top: 25px;
+    margin-left: 38%;
+    background-color: transparent;
+    border: 1px solid #0C3C60;
+    font-size: 16px;
+    color: #0C3C60;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.bg .heroimg .herobox button:hover{
+    cursor: pointer;
+    background-color: #0C3C60;
+    color: white;
+    transition: 0.3s;
+}
+/* mainsection */
+.bg .main{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg .main .work{
+    width: 80%;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+.bg .main .work .box1{
+    height: inherit;
+    width: 27%;
+}
+.bg .main .work .box1 h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+}
+.bg .main .work .box1 p{
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    padding-top: 45px;
+}
+.bg .main .work .box1  button{
+    height: 50px;
+    width: 180px;
+    background-color: transparent;
+    border: 1px solid #0C3C60;
+    font-size: 16px;
+    color: #0C3C60;
+    font-weight: 500;
+    transition: 0.3s;
+    margin-left: 23%;
+    margin-top: 60px;
+}
+.bg .main .work .box1  button:hover{
+    cursor: pointer;
+    background-color: #0C3C60;
+    color: white;
+    transition: 0.3s;
+}
+/* aboutsection */
+.bg .about{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Assets/about\ img.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.bg .about .color{
+    height: 100%;
+    width: 100%;
+    background-color: #d0e1ebef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg .about .color .page{
+    height: 450px;
+    width: 45%;
+}
+.bg .about .color .page h1{
+    text-align: center;
+    font-weight: 400;
+    word-spacing: 2px;
+    font-size: 40px;
+    color: #072136;
+}
+.bg .about .color .page p{
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    padding-top: 45px;
+}
+#gap{
+    padding-top: 28px;
+}
+.bg .about .color .page button{
+    height: 50px;
+    width: 180px;
+    background-color: transparent;
+    border: 1px solid #0C3B5F;
+    color: #0C3B5F;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 37%;
+    margin-top: 45px;
+    transition: 0.3s;
+}
+.bg .about .color .page button:hover{
+    background-color: #0C3C60;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+/* clients */
+.bg .client{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+.bg .client .heading h1{
+    text-align: center;
+    font-weight: 400;
+    word-spacing: 2px;
+    font-size: 38px;
+    color: #072136;
+    padding-top: 130px;
+}
+.bg .client .imgcircle{
+    height: 70px;
+    width: 75%;
+    margin-left: 14%;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.bg .client .imgcircle img{
+    height: inherit;
+    width: 10%;
+}
+#logo{
+    height: 100%;
+    width: 14%;
+}
+/* testimonial */
+.bg .name{
+    height: 90vh;
+    width: 100%;
+    background-color: #F7F7F7;
+}
+.bg .name h1{
+    text-align: center;
+    padding-top: 130px;
+    font-weight: 400;
+    font-size: 38px;
+    color: #072136;
+}
+.bg .name .section{
+    width: 62%;
+    height: 135px;
+    margin-left: 19%;
+    margin-top: 10%;
+    padding-top: 30px;
+    display: flex;
+}
+.bg .name .section i{
+    font-size: 45px;
+    transition: 0.2s;
+    height: 5px;
+}
+.bg .name .section i:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    color: grey;
+}
+.bg .name .section .inform{
+    height: 130px;
+    width: 470px;
+    position: relative;
+    bottom: 60%;
+    margin-left: 190px;
+    text-align: center;
+}
+.bg .name .section .inform p{
+    font-size: 19px;
+    text-align: center;
+    color: #5e666d;
+}
+.bg .name .section .inform span{
+    font-size: 16px;
+    color: #0C3C60;
+    font-weight: 500;
+    position: relative;
+    top: 30px;
+}
+#min{
+    font-size: 16px;
+    padding-top: 32px;
+}
+#set{
+    margin-left: 190px;
+    transition: 0.2s;
+}
+#set:hover{
+    color: grey;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.bg .name .sec{
+    height: 12px;
+    width: 4%;
+    margin-top: 80px;
+    margin-left: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg .name .sec .dot1{
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#dot2{
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border: 2px solid black;
+}
+/* contact */
+.bg .formbg{
+    height: 125vh;
+    width: 100%;
+    background-color: #0C3C60;
+}
+.bg .formbg h1{
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+.bg .formbg .form{
+    width: 60%;
+    height: 400px;
+    margin-left: 20%;
+    margin-top: 60px;
+}
+.bg .formbg .form label{
+    color: white;
+    font-size: 18px;
+}
+.bg .formbg .form input{
+    height: 40px;
+    width: 430px;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1.5px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 18px;
+    padding-left: 7px;
+}
+.bg .formbg .form input:hover{
+    border-bottom: 2px solid white;
+}
+#last{
+    margin-left: 355px;
+}
+#LastName{
+    margin-left: 21px;
+}
+#sub{
+    margin-left: 395px;
+}
+#sub2{
+    margin-left: 21px;
+}
+.bg .formbg .form .high{
+    margin-left: 21px;
+}
+#Message{
+    width: 883px;
+    height: 80px;
+}
+.bg .formbg .form button{
+    height: 40px;
+    width: 350px;
+    margin-left: 58.7%;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    position: relative;
+    top: 12%;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.bg .formbg .form button:hover{
+    background-color: transparent;
+    transition: 0.3s;
+    color: white;
+    cursor: pointer;
+}
+/* location */
+.bg .img{
+    height: 275px;
+    width: 58.3%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./Assets/location\ img.png);
+    margin-left: 20%;
+    margin-top: 40px;
+}
+/* footer */
+.bg .footer{
+    height: 50vh;
+    width: 100%;
+    background-color: #072136;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.bg .footer .fot1{
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+}
+#add{
+    margin-right: 170px;
+}
+.bg .footer .fot1 h3{
+    font-size: 22px;
+    color: white;
+    font-weight: 300;
+}
+.bg .footer .fot1 p{
+    color: white;
+    padding-top: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    cursor: pointer;
+}
+.bg .footer .fot1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    line-height: 35px;
+    transition: 0.2s;
+    position: relative;
+    top: 18px;
+}
+.bg .footer .fot1 a:hover{
+    color: rgb(57, 143, 177);
+    transition: 0.2s;
+}
+.bg .footer .fot1 .icon{
+    height: 25px;
+    width: 55px;
+    margin-top: 15px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.bg .footer .fot1 .icon i{
+    color: white;
+    font-size: 23px;
+}
+#outro{
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 50px;
+}
